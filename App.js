@@ -49,7 +49,7 @@ export default function App() {
           placeholder="Senha"
           secureTextEntry={true}
         />
-        <View style={{ width: '100%' }}> {/* Ajuste para o botão ocupar toda a largura do container */}
+        <View style={{ width: '100%' }}>
           <Button title="Login" color='blue' />
         </View>
       </View>
