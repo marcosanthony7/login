@@ -14,8 +14,8 @@ export default function App() {
           width: '80%', // Largura do container
           alignItems: 'center', // Alinha os filhos ao centro (horizontalmente)
           gap: 20, // Espaço entre os filhos do container
-          shadowColor: '#333',
-          shadowRadius: 20,
+          shadowColor: '#333333',
+          shadowRadius: 40,
         }}>
         <Text style={[{ fontSize: 30 }, { fontWeight: 'bold' }]}>LOGIN</Text>
         <TextInput
@@ -50,7 +50,7 @@ export default function App() {
           secureTextEntry={true}
         />
         <View style={{ width: '100%' }}>
-          <Button title="Login" color='blue' />
+          <Button title="Login" color="blue" />
         </View>
       </View>
       <StatusBar style="auto" />
